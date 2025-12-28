@@ -1,0 +1,62 @@
+# Claude related files
+CLAUDE.md
+.claude/
+
+# Model checkpoints (large files)
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Training logs
+log/
+logs/
+*.log
+
+# Data files (large)
+data/raw/
+data/processed*/
+*.jsonl
+
+# Embeddings
+*.vec
+*.txt.gz
+embeddings/
+
+# Generated figures (can be regenerated)
+figures/
+
+# Documentation (large files only)
+*.docx
+*.doc
+*.pdf
+
+# Shell scripts
+*.sh
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

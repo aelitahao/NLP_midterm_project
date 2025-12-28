@@ -1,0 +1,42 @@
+# NMT Configuration
+
+# General settings
+max_length: 128
+vocab_size: 5000
+device: "cuda"
+seed: 42
+checkpoint_dir: "checkpoints"
+save_every: 10  # Save checkpoint every N epochs
+use_amp: false
+
+# RNN configuration
+rnn:
+  embed_size: 512
+  hidden_size: 512
+  num_layers: 2
+  rnn_type: "gru"
+  dropout: 0.4
+  batch_size: 64
+  epochs: 30
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+
+# Transformer configuration
+transformer:
+  d_model: 512            # Can be overridden by --d_model
+  num_heads: 8            # Can be overridden by --num_heads
+  num_layers: 4           # Can be overridden by --num_layers
+  d_ff: 2048              # Can be overridden by --d_ff
+  dropout: 0.1
+  # pos_encoding and use_rmsnorm are specified via command line arguments
+  batch_size: 64          # Can be overridden by --batch_size
+  epochs: 20
+  learning_rate: 0.0001   # Can be overridden by --learning_rate
+  warmup_steps: 4000
+
+# T5 configuration
+t5:
+  model_name: "t5-small"
+  batch_size: 16
+  epochs: 10
+  learning_rate: 0.00003

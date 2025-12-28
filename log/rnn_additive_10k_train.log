@@ -1,0 +1,167 @@
+nohup: ignoring input
+/data/250010067/conda_envs/nmt_env/lib/python3.10/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading train.pt and valid.pt from data/processed_10k
+Train samples: 9937, Valid samples: 486
+Parameters: 14,513,544
+Training rnn on cuda
+Teacher forcing ratio: 1.0 (decay: False)
+/data/250010067/courses/NLP/NLP_midterm_project/train.py:72: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 0 | Batch 0/311 | Loss: 8.5099
+Epoch 0 | Batch 100/311 | Loss: 5.7806
+Epoch 0 | Batch 200/311 | Loss: 5.4251
+Epoch 0 | Batch 300/311 | Loss: 5.2496
+/data/250010067/courses/NLP/NLP_midterm_project/train.py:113: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 0 | Time: 60.9s | Train Loss: 5.6548 | Val Loss: 5.0528
+New best model! Val Loss: 5.0528
+Epoch 1 | Batch 0/311 | Loss: 5.1307
+Epoch 1 | Batch 100/311 | Loss: 5.0474
+Epoch 1 | Batch 200/311 | Loss: 4.9269
+Epoch 1 | Batch 300/311 | Loss: 4.6577
+Epoch 1 | Time: 80.0s | Train Loss: 4.9024 | Val Loss: 4.8776
+New best model! Val Loss: 4.8776
+Epoch 2 | Batch 0/311 | Loss: 4.4537
+Epoch 2 | Batch 100/311 | Loss: 4.5370
+Epoch 2 | Batch 200/311 | Loss: 4.4633
+Epoch 2 | Batch 300/311 | Loss: 4.3227
+Epoch 2 | Time: 110.1s | Train Loss: 4.4279 | Val Loss: 4.7940
+New best model! Val Loss: 4.7940
+Epoch 3 | Batch 0/311 | Loss: 3.8960
+Epoch 3 | Batch 100/311 | Loss: 4.0886
+Epoch 3 | Batch 200/311 | Loss: 3.9447
+Epoch 3 | Batch 300/311 | Loss: 4.0005
+Epoch 3 | Time: 122.9s | Train Loss: 4.0402 | Val Loss: 4.8079
+Epoch 4 | Batch 0/311 | Loss: 3.6068
+Epoch 4 | Batch 100/311 | Loss: 3.7389
+Epoch 4 | Batch 200/311 | Loss: 3.7548
+Epoch 4 | Batch 300/311 | Loss: 3.5815
+Epoch 4 | Time: 135.1s | Train Loss: 3.7168 | Val Loss: 4.8528
+Epoch 5 | Batch 0/311 | Loss: 3.3471
+Epoch 5 | Batch 100/311 | Loss: 3.3321
+Epoch 5 | Batch 200/311 | Loss: 3.5026
+Epoch 5 | Batch 300/311 | Loss: 3.5528
+Epoch 5 | Time: 175.7s | Train Loss: 3.4390 | Val Loss: 4.8623
+Epoch 6 | Batch 0/311 | Loss: 3.2028
+Epoch 6 | Batch 100/311 | Loss: 3.1205
+Epoch 6 | Batch 200/311 | Loss: 3.2156
+Epoch 6 | Batch 300/311 | Loss: 3.4195
+Epoch 6 | Time: 171.5s | Train Loss: 3.2113 | Val Loss: 4.9377
+Epoch 7 | Batch 0/311 | Loss: 2.8898
+Epoch 7 | Batch 100/311 | Loss: 2.9127
+Epoch 7 | Batch 200/311 | Loss: 2.9666
+Epoch 7 | Batch 300/311 | Loss: 2.8651
+Epoch 7 | Time: 285.0s | Train Loss: 3.0224 | Val Loss: 4.9426
+Epoch 8 | Batch 0/311 | Loss: 2.6581
+Epoch 8 | Batch 100/311 | Loss: 2.7888
+Epoch 8 | Batch 200/311 | Loss: 3.0583
+Epoch 8 | Batch 300/311 | Loss: 2.9483
+Epoch 8 | Time: 289.8s | Train Loss: 2.8646 | Val Loss: 5.0389
+Epoch 9 | Batch 0/311 | Loss: 2.4925
+Epoch 9 | Batch 100/311 | Loss: 2.7495
+Epoch 9 | Batch 200/311 | Loss: 2.7943
+Epoch 9 | Batch 300/311 | Loss: 3.0038
+Epoch 9 | Time: 297.9s | Train Loss: 2.7325 | Val Loss: 5.0736
+Epoch 10 | Batch 0/311 | Loss: 2.6040
+Epoch 10 | Batch 100/311 | Loss: 2.5090
+Epoch 10 | Batch 200/311 | Loss: 2.7142
+Epoch 10 | Batch 300/311 | Loss: 2.6415
+Epoch 10 | Time: 282.0s | Train Loss: 2.6191 | Val Loss: 5.1205
+Epoch 11 | Batch 0/311 | Loss: 2.4337
+Epoch 11 | Batch 100/311 | Loss: 2.6109
+Epoch 11 | Batch 200/311 | Loss: 2.4251
+Epoch 11 | Batch 300/311 | Loss: 2.5105
+Epoch 11 | Time: 266.3s | Train Loss: 2.5213 | Val Loss: 5.1540
+Epoch 12 | Batch 0/311 | Loss: 2.2405
+Epoch 12 | Batch 100/311 | Loss: 2.4470
+Epoch 12 | Batch 200/311 | Loss: 2.5005
+Epoch 12 | Batch 300/311 | Loss: 2.6967
+Epoch 12 | Time: 214.0s | Train Loss: 2.4356 | Val Loss: 5.2149
+Epoch 13 | Batch 0/311 | Loss: 2.2663
+Epoch 13 | Batch 100/311 | Loss: 2.3953
+Epoch 13 | Batch 200/311 | Loss: 2.4155
+Epoch 13 | Batch 300/311 | Loss: 2.2797
+Epoch 13 | Time: 201.2s | Train Loss: 2.3582 | Val Loss: 5.2752
+Epoch 14 | Batch 0/311 | Loss: 2.1158
+Epoch 14 | Batch 100/311 | Loss: 2.1341
+Epoch 14 | Batch 200/311 | Loss: 2.3014
+Epoch 14 | Batch 300/311 | Loss: 2.3862
+Epoch 14 | Time: 145.2s | Train Loss: 2.2928 | Val Loss: 5.3257
+Epoch 15 | Batch 0/311 | Loss: 2.0133
+Epoch 15 | Batch 100/311 | Loss: 2.1239
+Epoch 15 | Batch 200/311 | Loss: 2.2901
+Epoch 15 | Batch 300/311 | Loss: 2.3286
+Epoch 15 | Time: 145.2s | Train Loss: 2.2336 | Val Loss: 5.3801
+Epoch 16 | Batch 0/311 | Loss: 2.0164
+Epoch 16 | Batch 100/311 | Loss: 2.0497
+Epoch 16 | Batch 200/311 | Loss: 2.2709
+Epoch 16 | Batch 300/311 | Loss: 2.1914
+Epoch 16 | Time: 131.7s | Train Loss: 2.1828 | Val Loss: 5.4124
+Epoch 17 | Batch 0/311 | Loss: 1.9249
+Epoch 17 | Batch 100/311 | Loss: 2.2361
+Epoch 17 | Batch 200/311 | Loss: 2.1290
+Epoch 17 | Batch 300/311 | Loss: 2.2531
+Epoch 17 | Time: 130.4s | Train Loss: 2.1323 | Val Loss: 5.4759
+Epoch 18 | Batch 0/311 | Loss: 2.0139
+Epoch 18 | Batch 100/311 | Loss: 2.0998
+Epoch 18 | Batch 200/311 | Loss: 2.1531
+Epoch 18 | Batch 300/311 | Loss: 2.3634
+Epoch 18 | Time: 109.6s | Train Loss: 2.0888 | Val Loss: 5.4935
+Epoch 19 | Batch 0/311 | Loss: 1.8186
+Epoch 19 | Batch 100/311 | Loss: 2.0759
+Epoch 19 | Batch 200/311 | Loss: 2.0928
+Epoch 19 | Batch 300/311 | Loss: 2.2123
+Epoch 19 | Time: 83.4s | Train Loss: 2.0471 | Val Loss: 5.5374
+Epoch 20 | Batch 0/311 | Loss: 1.8977
+Epoch 20 | Batch 100/311 | Loss: 1.9774
+Epoch 20 | Batch 200/311 | Loss: 2.1574
+Epoch 20 | Batch 300/311 | Loss: 2.0666
+Epoch 20 | Time: 87.5s | Train Loss: 2.0120 | Val Loss: 5.5881
+Epoch 21 | Batch 0/311 | Loss: 1.7487
+Epoch 21 | Batch 100/311 | Loss: 2.1046
+Epoch 21 | Batch 200/311 | Loss: 1.9615
+Epoch 21 | Batch 300/311 | Loss: 2.0665
+Epoch 21 | Time: 85.8s | Train Loss: 1.9737 | Val Loss: 5.6293
+Epoch 22 | Batch 0/311 | Loss: 1.9517
+Epoch 22 | Batch 100/311 | Loss: 2.0815
+Epoch 22 | Batch 200/311 | Loss: 2.0419
+Epoch 22 | Batch 300/311 | Loss: 1.9520
+Epoch 22 | Time: 79.4s | Train Loss: 1.9449 | Val Loss: 5.7118
+Epoch 23 | Batch 0/311 | Loss: 1.7537
+Epoch 23 | Batch 100/311 | Loss: 1.8757
+Epoch 23 | Batch 200/311 | Loss: 1.9645
+Epoch 23 | Batch 300/311 | Loss: 2.0903
+Epoch 23 | Time: 66.4s | Train Loss: 1.9160 | Val Loss: 5.7223
+Epoch 24 | Batch 0/311 | Loss: 1.8081
+Epoch 24 | Batch 100/311 | Loss: 1.9216
+Epoch 24 | Batch 200/311 | Loss: 1.9594
+Epoch 24 | Batch 300/311 | Loss: 2.0167
+Epoch 24 | Time: 80.0s | Train Loss: 1.8864 | Val Loss: 5.7765
+Epoch 25 | Batch 0/311 | Loss: 1.6394
+Epoch 25 | Batch 100/311 | Loss: 1.7547
+Epoch 25 | Batch 200/311 | Loss: 1.7855
+Epoch 25 | Batch 300/311 | Loss: 1.8853
+Epoch 25 | Time: 77.4s | Train Loss: 1.8631 | Val Loss: 5.8189
+Epoch 26 | Batch 0/311 | Loss: 1.7709
+Epoch 26 | Batch 100/311 | Loss: 1.7779
+Epoch 26 | Batch 200/311 | Loss: 1.8049
+Epoch 26 | Batch 300/311 | Loss: 1.9372
+Epoch 26 | Time: 65.8s | Train Loss: 1.8432 | Val Loss: 5.8760
+Epoch 27 | Batch 0/311 | Loss: 1.6766
+Epoch 27 | Batch 100/311 | Loss: 1.8322
+Epoch 27 | Batch 200/311 | Loss: 1.9075
+Epoch 27 | Batch 300/311 | Loss: 1.8432
+Epoch 27 | Time: 52.8s | Train Loss: 1.8209 | Val Loss: 5.8492
+Epoch 28 | Batch 0/311 | Loss: 1.7195
+Epoch 28 | Batch 100/311 | Loss: 1.7924
+Epoch 28 | Batch 200/311 | Loss: 1.8321
+Epoch 28 | Batch 300/311 | Loss: 1.9881
+Epoch 28 | Time: 37.8s | Train Loss: 1.7988 | Val Loss: 5.9381
+Epoch 29 | Batch 0/311 | Loss: 1.6309
+Epoch 29 | Batch 100/311 | Loss: 1.8334
+Epoch 29 | Batch 200/311 | Loss: 1.8978
+Epoch 29 | Batch 300/311 | Loss: 1.7387
+Epoch 29 | Time: 32.6s | Train Loss: 1.7818 | Val Loss: 5.9822
+
+Total training time: 01:09:46 (4186.1s)

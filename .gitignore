@@ -8,11 +8,6 @@ CLAUDE.md
 # Model checkpoints (large files)
 checkpoints/
 
-# Training logs
-log/
-logs/
-*.log
-
 # Data files (large)
 data/raw/
 data/processed*/

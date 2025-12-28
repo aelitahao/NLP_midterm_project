@@ -1,0 +1,535 @@
+Loading train.pt and valid.pt from data/processed_100k
+Train samples: 99392, Valid samples: 486
+Parameters: 27,842,320
+Training rnn on cuda
+Teacher forcing ratio: 0.0 (decay: False)
+/data/250010067/courses/NLP/NLP_midterm_project/train.py:100: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 0 | Batch 0/1553 | Loss: 9.2056
+Epoch 0 | Batch 100/1553 | Loss: 6.3766
+Epoch 0 | Batch 200/1553 | Loss: 6.2744
+Epoch 0 | Batch 300/1553 | Loss: 6.2590
+Epoch 0 | Batch 400/1553 | Loss: 6.2352
+Epoch 0 | Batch 500/1553 | Loss: 6.1623
+Epoch 0 | Batch 600/1553 | Loss: 6.1793
+Epoch 0 | Batch 700/1553 | Loss: 6.0515
+Epoch 0 | Batch 800/1553 | Loss: 6.0212
+Epoch 0 | Batch 900/1553 | Loss: 6.1233
+Epoch 0 | Batch 1000/1553 | Loss: 5.9377
+Epoch 0 | Batch 1100/1553 | Loss: 6.0524
+Epoch 0 | Batch 1200/1553 | Loss: 5.8788
+Epoch 0 | Batch 1300/1553 | Loss: 6.0525
+Epoch 0 | Batch 1400/1553 | Loss: 5.9273
+Epoch 0 | Batch 1500/1553 | Loss: 5.8528
+/data/250010067/courses/NLP/NLP_midterm_project/train.py:141: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 0 | Time: 135.9s | Train Loss: 6.1304 | Val Loss: 5.9743
+New best model! Val Loss: 5.9743
+Epoch 1 | Batch 0/1553 | Loss: 5.9007
+Epoch 1 | Batch 100/1553 | Loss: 5.8404
+Epoch 1 | Batch 200/1553 | Loss: 5.8279
+Epoch 1 | Batch 300/1553 | Loss: 5.7927
+Epoch 1 | Batch 400/1553 | Loss: 5.6934
+Epoch 1 | Batch 500/1553 | Loss: 5.7439
+Epoch 1 | Batch 600/1553 | Loss: 5.6944
+Epoch 1 | Batch 700/1553 | Loss: 5.8667
+Epoch 1 | Batch 800/1553 | Loss: 5.7115
+Epoch 1 | Batch 900/1553 | Loss: 5.6494
+Epoch 1 | Batch 1000/1553 | Loss: 5.6925
+Epoch 1 | Batch 1100/1553 | Loss: 5.7207
+Epoch 1 | Batch 1200/1553 | Loss: 5.6803
+Epoch 1 | Batch 1300/1553 | Loss: 5.6232
+Epoch 1 | Batch 1400/1553 | Loss: 5.5919
+Epoch 1 | Batch 1500/1553 | Loss: 5.7023
+Epoch 1 | Time: 136.2s | Train Loss: 5.7149 | Val Loss: 5.8491
+New best model! Val Loss: 5.8491
+Epoch 2 | Batch 0/1553 | Loss: 5.4825
+Epoch 2 | Batch 100/1553 | Loss: 5.6604
+Epoch 2 | Batch 200/1553 | Loss: 5.5527
+Epoch 2 | Batch 300/1553 | Loss: 5.5997
+Epoch 2 | Batch 400/1553 | Loss: 5.5750
+Epoch 2 | Batch 500/1553 | Loss: 5.5756
+Epoch 2 | Batch 600/1553 | Loss: 5.5266
+Epoch 2 | Batch 700/1553 | Loss: 5.5290
+Epoch 2 | Batch 800/1553 | Loss: 5.4801
+Epoch 2 | Batch 900/1553 | Loss: 5.5860
+Epoch 2 | Batch 1000/1553 | Loss: 5.4570
+Epoch 2 | Batch 1100/1553 | Loss: 5.6011
+Epoch 2 | Batch 1200/1553 | Loss: 5.5354
+Epoch 2 | Batch 1300/1553 | Loss: 5.5102
+Epoch 2 | Batch 1400/1553 | Loss: 5.5267
+Epoch 2 | Batch 1500/1553 | Loss: 5.6477
+Epoch 2 | Time: 137.9s | Train Loss: 5.5481 | Val Loss: 5.7862
+New best model! Val Loss: 5.7862
+Epoch 3 | Batch 0/1553 | Loss: 5.3656
+Epoch 3 | Batch 100/1553 | Loss: 5.4284
+Epoch 3 | Batch 200/1553 | Loss: 5.5136
+Epoch 3 | Batch 300/1553 | Loss: 5.4764
+Epoch 3 | Batch 400/1553 | Loss: 5.5150
+Epoch 3 | Batch 500/1553 | Loss: 5.4985
+Epoch 3 | Batch 600/1553 | Loss: 5.3664
+Epoch 3 | Batch 700/1553 | Loss: 5.5321
+Epoch 3 | Batch 800/1553 | Loss: 5.4734
+Epoch 3 | Batch 900/1553 | Loss: 5.5202
+Epoch 3 | Batch 1000/1553 | Loss: 5.4468
+Epoch 3 | Batch 1100/1553 | Loss: 5.3196
+Epoch 3 | Batch 1200/1553 | Loss: 5.3882
+Epoch 3 | Batch 1300/1553 | Loss: 5.3719
+Epoch 3 | Batch 1400/1553 | Loss: 5.4090
+Epoch 3 | Batch 1500/1553 | Loss: 5.6223
+Epoch 3 | Time: 135.5s | Train Loss: 5.4463 | Val Loss: 5.6850
+New best model! Val Loss: 5.6850
+Epoch 4 | Batch 0/1553 | Loss: 5.2452
+Epoch 4 | Batch 100/1553 | Loss: 5.3668
+Epoch 4 | Batch 200/1553 | Loss: 5.4387
+Epoch 4 | Batch 300/1553 | Loss: 5.2487
+Epoch 4 | Batch 400/1553 | Loss: 5.3063
+Epoch 4 | Batch 500/1553 | Loss: 5.3541
+Epoch 4 | Batch 600/1553 | Loss: 5.4862
+Epoch 4 | Batch 700/1553 | Loss: 5.3506
+Epoch 4 | Batch 800/1553 | Loss: 5.4110
+Epoch 4 | Batch 900/1553 | Loss: 5.5158
+Epoch 4 | Batch 1000/1553 | Loss: 5.3192
+Epoch 4 | Batch 1100/1553 | Loss: 5.2417
+Epoch 4 | Batch 1200/1553 | Loss: 5.3302
+Epoch 4 | Batch 1300/1553 | Loss: 5.2335
+Epoch 4 | Batch 1400/1553 | Loss: 5.2693
+Epoch 4 | Batch 1500/1553 | Loss: 5.3035
+Epoch 4 | Time: 136.5s | Train Loss: 5.3489 | Val Loss: 5.6053
+New best model! Val Loss: 5.6053
+Epoch 5 | Batch 0/1553 | Loss: 5.3015
+Epoch 5 | Batch 100/1553 | Loss: 5.2905
+Epoch 5 | Batch 200/1553 | Loss: 5.2158
+Epoch 5 | Batch 300/1553 | Loss: 5.4223
+Epoch 5 | Batch 400/1553 | Loss: 5.3025
+Epoch 5 | Batch 500/1553 | Loss: 5.2950
+Epoch 5 | Batch 600/1553 | Loss: 5.2359
+Epoch 5 | Batch 700/1553 | Loss: 5.3551
+Epoch 5 | Batch 800/1553 | Loss: 5.1920
+Epoch 5 | Batch 900/1553 | Loss: 5.2769
+Epoch 5 | Batch 1000/1553 | Loss: 5.3278
+Epoch 5 | Batch 1100/1553 | Loss: 5.2717
+Epoch 5 | Batch 1200/1553 | Loss: 5.2288
+Epoch 5 | Batch 1300/1553 | Loss: 5.1968
+Epoch 5 | Batch 1400/1553 | Loss: 5.2327
+Epoch 5 | Batch 1500/1553 | Loss: 5.2086
+Epoch 5 | Time: 135.8s | Train Loss: 5.2463 | Val Loss: 5.5536
+New best model! Val Loss: 5.5536
+Epoch 6 | Batch 0/1553 | Loss: 5.0585
+Epoch 6 | Batch 100/1553 | Loss: 5.1709
+Epoch 6 | Batch 200/1553 | Loss: 5.2125
+Epoch 6 | Batch 300/1553 | Loss: 5.2544
+Epoch 6 | Batch 400/1553 | Loss: 5.2386
+Epoch 6 | Batch 500/1553 | Loss: 5.0954
+Epoch 6 | Batch 600/1553 | Loss: 5.1425
+Epoch 6 | Batch 700/1553 | Loss: 5.0404
+Epoch 6 | Batch 800/1553 | Loss: 5.2947
+Epoch 6 | Batch 900/1553 | Loss: 5.0849
+Epoch 6 | Batch 1000/1553 | Loss: 5.1123
+Epoch 6 | Batch 1100/1553 | Loss: 5.1957
+Epoch 6 | Batch 1200/1553 | Loss: 5.1586
+Epoch 6 | Batch 1300/1553 | Loss: 5.2164
+Epoch 6 | Batch 1400/1553 | Loss: 5.0446
+Epoch 6 | Batch 1500/1553 | Loss: 5.2161
+Epoch 6 | Time: 135.3s | Train Loss: 5.1506 | Val Loss: 5.5246
+New best model! Val Loss: 5.5246
+Epoch 7 | Batch 0/1553 | Loss: 5.0939
+Epoch 7 | Batch 100/1553 | Loss: 4.9693
+Epoch 7 | Batch 200/1553 | Loss: 5.1604
+Epoch 7 | Batch 300/1553 | Loss: 4.9217
+Epoch 7 | Batch 400/1553 | Loss: 5.1324
+Epoch 7 | Batch 500/1553 | Loss: 4.9053
+Epoch 7 | Batch 600/1553 | Loss: 5.0885
+Epoch 7 | Batch 700/1553 | Loss: 4.9670
+Epoch 7 | Batch 800/1553 | Loss: 5.0884
+Epoch 7 | Batch 900/1553 | Loss: 5.0885
+Epoch 7 | Batch 1000/1553 | Loss: 5.0521
+Epoch 7 | Batch 1100/1553 | Loss: 5.0023
+Epoch 7 | Batch 1200/1553 | Loss: 5.2129
+Epoch 7 | Batch 1300/1553 | Loss: 5.1697
+Epoch 7 | Batch 1400/1553 | Loss: 5.1664
+Epoch 7 | Batch 1500/1553 | Loss: 5.1485
+Epoch 7 | Time: 136.5s | Train Loss: 5.0701 | Val Loss: 5.4412
+New best model! Val Loss: 5.4412
+Epoch 8 | Batch 0/1553 | Loss: 4.9927
+Epoch 8 | Batch 100/1553 | Loss: 4.9970
+Epoch 8 | Batch 200/1553 | Loss: 4.9212
+Epoch 8 | Batch 300/1553 | Loss: 5.1179
+Epoch 8 | Batch 400/1553 | Loss: 4.9803
+Epoch 8 | Batch 500/1553 | Loss: 5.0279
+Epoch 8 | Batch 600/1553 | Loss: 4.9397
+Epoch 8 | Batch 700/1553 | Loss: 5.0254
+Epoch 8 | Batch 800/1553 | Loss: 4.9266
+Epoch 8 | Batch 900/1553 | Loss: 4.9547
+Epoch 8 | Batch 1000/1553 | Loss: 5.0817
+Epoch 8 | Batch 1100/1553 | Loss: 5.2094
+Epoch 8 | Batch 1200/1553 | Loss: 5.1390
+Epoch 8 | Batch 1300/1553 | Loss: 5.1164
+Epoch 8 | Batch 1400/1553 | Loss: 5.0574
+Epoch 8 | Batch 1500/1553 | Loss: 4.9693
+Epoch 8 | Time: 135.2s | Train Loss: 5.0058 | Val Loss: 5.4125
+New best model! Val Loss: 5.4125
+Epoch 9 | Batch 0/1553 | Loss: 4.8730
+Epoch 9 | Batch 100/1553 | Loss: 4.9409
+Epoch 9 | Batch 200/1553 | Loss: 4.9990
+Epoch 9 | Batch 300/1553 | Loss: 4.9443
+Epoch 9 | Batch 400/1553 | Loss: 4.9825
+Epoch 9 | Batch 500/1553 | Loss: 5.0188
+Epoch 9 | Batch 600/1553 | Loss: 4.9530
+Epoch 9 | Batch 700/1553 | Loss: 4.9824
+Epoch 9 | Batch 800/1553 | Loss: 4.8852
+Epoch 9 | Batch 900/1553 | Loss: 4.9469
+Epoch 9 | Batch 1000/1553 | Loss: 4.9346
+Epoch 9 | Batch 1100/1553 | Loss: 4.8699
+Epoch 9 | Batch 1200/1553 | Loss: 4.8495
+Epoch 9 | Batch 1300/1553 | Loss: 4.9277
+Epoch 9 | Batch 1400/1553 | Loss: 4.8735
+Epoch 9 | Batch 1500/1553 | Loss: 4.8937
+Epoch 9 | Time: 136.9s | Train Loss: 4.9540 | Val Loss: 5.4211
+Epoch 10 | Batch 0/1553 | Loss: 4.8978
+Epoch 10 | Batch 100/1553 | Loss: 5.0041
+Epoch 10 | Batch 200/1553 | Loss: 4.8559
+Epoch 10 | Batch 300/1553 | Loss: 4.8945
+Epoch 10 | Batch 400/1553 | Loss: 4.9244
+Epoch 10 | Batch 500/1553 | Loss: 4.8617
+Epoch 10 | Batch 600/1553 | Loss: 4.9197
+Epoch 10 | Batch 700/1553 | Loss: 4.8965
+Epoch 10 | Batch 800/1553 | Loss: 5.0589
+Epoch 10 | Batch 900/1553 | Loss: 4.8884
+Epoch 10 | Batch 1000/1553 | Loss: 4.9965
+Epoch 10 | Batch 1100/1553 | Loss: 4.9203
+Epoch 10 | Batch 1200/1553 | Loss: 4.8880
+Epoch 10 | Batch 1300/1553 | Loss: 4.9760
+Epoch 10 | Batch 1400/1553 | Loss: 5.0535
+Epoch 10 | Batch 1500/1553 | Loss: 4.9899
+Epoch 10 | Time: 135.9s | Train Loss: 4.9148 | Val Loss: 5.3559
+New best model! Val Loss: 5.3559
+Epoch 11 | Batch 0/1553 | Loss: 4.6975
+Epoch 11 | Batch 100/1553 | Loss: 4.7881
+Epoch 11 | Batch 200/1553 | Loss: 4.7806
+Epoch 11 | Batch 300/1553 | Loss: 4.8044
+Epoch 11 | Batch 400/1553 | Loss: 4.8980
+Epoch 11 | Batch 500/1553 | Loss: 4.8853
+Epoch 11 | Batch 600/1553 | Loss: 4.8959
+Epoch 11 | Batch 700/1553 | Loss: 5.0718
+Epoch 11 | Batch 800/1553 | Loss: 4.9865
+Epoch 11 | Batch 900/1553 | Loss: 4.9781
+Epoch 11 | Batch 1000/1553 | Loss: 4.9419
+Epoch 11 | Batch 1100/1553 | Loss: 4.8579
+Epoch 11 | Batch 1200/1553 | Loss: 4.8322
+Epoch 11 | Batch 1300/1553 | Loss: 4.8227
+Epoch 11 | Batch 1400/1553 | Loss: 4.9615
+Epoch 11 | Batch 1500/1553 | Loss: 4.8813
+Epoch 11 | Time: 136.1s | Train Loss: 4.8833 | Val Loss: 5.3806
+Epoch 12 | Batch 0/1553 | Loss: 4.8611
+Epoch 12 | Batch 100/1553 | Loss: 4.7025
+Epoch 12 | Batch 200/1553 | Loss: 4.9744
+Epoch 12 | Batch 300/1553 | Loss: 4.6218
+Epoch 12 | Batch 400/1553 | Loss: 4.8915
+Epoch 12 | Batch 500/1553 | Loss: 4.8138
+Epoch 12 | Batch 600/1553 | Loss: 4.9736
+Epoch 12 | Batch 700/1553 | Loss: 4.8603
+Epoch 12 | Batch 800/1553 | Loss: 4.9707
+Epoch 12 | Batch 900/1553 | Loss: 4.8277
+Epoch 12 | Batch 1000/1553 | Loss: 5.0645
+Epoch 12 | Batch 1100/1553 | Loss: 4.8910
+Epoch 12 | Batch 1200/1553 | Loss: 4.8787
+Epoch 12 | Batch 1300/1553 | Loss: 4.8994
+Epoch 12 | Batch 1400/1553 | Loss: 4.7868
+Epoch 12 | Batch 1500/1553 | Loss: 4.8670
+Epoch 12 | Time: 135.4s | Train Loss: 4.8617 | Val Loss: 5.3490
+New best model! Val Loss: 5.3490
+Epoch 13 | Batch 0/1553 | Loss: 4.8347
+Epoch 13 | Batch 100/1553 | Loss: 4.7060
+Epoch 13 | Batch 200/1553 | Loss: 4.7565
+Epoch 13 | Batch 300/1553 | Loss: 4.8473
+Epoch 13 | Batch 400/1553 | Loss: 4.8808
+Epoch 13 | Batch 500/1553 | Loss: 4.7148
+Epoch 13 | Batch 600/1553 | Loss: 4.7643
+Epoch 13 | Batch 700/1553 | Loss: 5.0447
+Epoch 13 | Batch 800/1553 | Loss: 4.8391
+Epoch 13 | Batch 900/1553 | Loss: 4.9287
+Epoch 13 | Batch 1000/1553 | Loss: 5.0242
+Epoch 13 | Batch 1100/1553 | Loss: 4.8566
+Epoch 13 | Batch 1200/1553 | Loss: 4.9464
+Epoch 13 | Batch 1300/1553 | Loss: 4.8883
+Epoch 13 | Batch 1400/1553 | Loss: 4.7093
+Epoch 13 | Batch 1500/1553 | Loss: 4.9758
+Epoch 13 | Time: 136.2s | Train Loss: 4.8451 | Val Loss: 5.3563
+Epoch 14 | Batch 0/1553 | Loss: 4.8190
+Epoch 14 | Batch 100/1553 | Loss: 4.7813
+Epoch 14 | Batch 200/1553 | Loss: 4.7451
+Epoch 14 | Batch 300/1553 | Loss: 4.7698
+Epoch 14 | Batch 400/1553 | Loss: 4.8770
+Epoch 14 | Batch 500/1553 | Loss: 4.8918
+Epoch 14 | Batch 600/1553 | Loss: 4.9198
+Epoch 14 | Batch 700/1553 | Loss: 4.8739
+Epoch 14 | Batch 800/1553 | Loss: 4.7821
+Epoch 14 | Batch 900/1553 | Loss: 4.8074
+Epoch 14 | Batch 1000/1553 | Loss: 4.7820
+Epoch 14 | Batch 1100/1553 | Loss: 4.9366
+Epoch 14 | Batch 1200/1553 | Loss: 4.9422
+Epoch 14 | Batch 1300/1553 | Loss: 4.9139
+Epoch 14 | Batch 1400/1553 | Loss: 4.7749
+Epoch 14 | Batch 1500/1553 | Loss: 4.8393
+Epoch 14 | Time: 137.0s | Train Loss: 4.8325 | Val Loss: 5.3474
+New best model! Val Loss: 5.3474
+Epoch 15 | Batch 0/1553 | Loss: 4.7578
+Epoch 15 | Batch 100/1553 | Loss: 4.7310
+Epoch 15 | Batch 200/1553 | Loss: 4.7770
+Epoch 15 | Batch 300/1553 | Loss: 4.8360
+Epoch 15 | Batch 400/1553 | Loss: 4.6814
+Epoch 15 | Batch 500/1553 | Loss: 4.7271
+Epoch 15 | Batch 600/1553 | Loss: 4.8335
+Epoch 15 | Batch 700/1553 | Loss: 5.0169
+Epoch 15 | Batch 800/1553 | Loss: 4.7839
+Epoch 15 | Batch 900/1553 | Loss: 4.7639
+Epoch 15 | Batch 1000/1553 | Loss: 4.7514
+Epoch 15 | Batch 1100/1553 | Loss: 4.9717
+Epoch 15 | Batch 1200/1553 | Loss: 5.0199
+Epoch 15 | Batch 1300/1553 | Loss: 4.9131
+Epoch 15 | Batch 1400/1553 | Loss: 4.8079
+Epoch 15 | Batch 1500/1553 | Loss: 4.8830
+Epoch 15 | Time: 138.3s | Train Loss: 4.8239 | Val Loss: 5.3408
+New best model! Val Loss: 5.3408
+Epoch 16 | Batch 0/1553 | Loss: 4.7362
+Epoch 16 | Batch 100/1553 | Loss: 4.8630
+Epoch 16 | Batch 200/1553 | Loss: 4.8568
+Epoch 16 | Batch 300/1553 | Loss: 4.9213
+Epoch 16 | Batch 400/1553 | Loss: 4.6293
+Epoch 16 | Batch 500/1553 | Loss: 4.7016
+Epoch 16 | Batch 600/1553 | Loss: 4.8193
+Epoch 16 | Batch 700/1553 | Loss: 4.6743
+Epoch 16 | Batch 800/1553 | Loss: 4.9250
+Epoch 16 | Batch 900/1553 | Loss: 4.8167
+Epoch 16 | Batch 1000/1553 | Loss: 4.7269
+Epoch 16 | Batch 1100/1553 | Loss: 4.6744
+Epoch 16 | Batch 1200/1553 | Loss: 4.8433
+Epoch 16 | Batch 1300/1553 | Loss: 4.7109
+Epoch 16 | Batch 1400/1553 | Loss: 5.0358
+Epoch 16 | Batch 1500/1553 | Loss: 4.8101
+Epoch 16 | Time: 136.6s | Train Loss: 4.8177 | Val Loss: 5.3492
+Epoch 17 | Batch 0/1553 | Loss: 4.8002
+Epoch 17 | Batch 100/1553 | Loss: 4.8300
+Epoch 17 | Batch 200/1553 | Loss: 4.8083
+Epoch 17 | Batch 300/1553 | Loss: 4.8560
+Epoch 17 | Batch 400/1553 | Loss: 4.8772
+Epoch 17 | Batch 500/1553 | Loss: 4.7956
+Epoch 17 | Batch 600/1553 | Loss: 4.8818
+Epoch 17 | Batch 700/1553 | Loss: 4.8472
+Epoch 17 | Batch 800/1553 | Loss: 5.0276
+Epoch 17 | Batch 900/1553 | Loss: 4.7605
+Epoch 17 | Batch 1000/1553 | Loss: 4.9839
+Epoch 17 | Batch 1100/1553 | Loss: 4.7405
+Epoch 17 | Batch 1200/1553 | Loss: 4.9271
+Epoch 17 | Batch 1300/1553 | Loss: 5.0033
+Epoch 17 | Batch 1400/1553 | Loss: 4.7792
+Epoch 17 | Batch 1500/1553 | Loss: 4.7206
+Epoch 17 | Time: 136.4s | Train Loss: 4.8144 | Val Loss: 5.3255
+New best model! Val Loss: 5.3255
+Epoch 18 | Batch 0/1553 | Loss: 4.7544
+Epoch 18 | Batch 100/1553 | Loss: 4.7265
+Epoch 18 | Batch 200/1553 | Loss: 4.7314
+Epoch 18 | Batch 300/1553 | Loss: 4.8187
+Epoch 18 | Batch 400/1553 | Loss: 4.7699
+Epoch 18 | Batch 500/1553 | Loss: 4.6963
+Epoch 18 | Batch 600/1553 | Loss: 4.8122
+Epoch 18 | Batch 700/1553 | Loss: 4.8926
+Epoch 18 | Batch 800/1553 | Loss: 4.7970
+Epoch 18 | Batch 900/1553 | Loss: 4.9379
+Epoch 18 | Batch 1000/1553 | Loss: 4.9967
+Epoch 18 | Batch 1100/1553 | Loss: 4.9008
+Epoch 18 | Batch 1200/1553 | Loss: 4.8774
+Epoch 18 | Batch 1300/1553 | Loss: 4.8430
+Epoch 18 | Batch 1400/1553 | Loss: 4.8455
+Epoch 18 | Batch 1500/1553 | Loss: 4.7936
+Epoch 18 | Time: 136.8s | Train Loss: 4.8107 | Val Loss: 5.3385
+Epoch 19 | Batch 0/1553 | Loss: 4.7196
+Epoch 19 | Batch 100/1553 | Loss: 4.7160
+Epoch 19 | Batch 200/1553 | Loss: 4.6603
+Epoch 19 | Batch 300/1553 | Loss: 4.6386
+Epoch 19 | Batch 400/1553 | Loss: 4.8572
+Epoch 19 | Batch 500/1553 | Loss: 4.7822
+Epoch 19 | Batch 600/1553 | Loss: 4.7667
+Epoch 19 | Batch 700/1553 | Loss: 4.9494
+Epoch 19 | Batch 800/1553 | Loss: 4.7933
+Epoch 19 | Batch 900/1553 | Loss: 4.8021
+Epoch 19 | Batch 1000/1553 | Loss: 4.8896
+Epoch 19 | Batch 1100/1553 | Loss: 4.7840
+Epoch 19 | Batch 1200/1553 | Loss: 4.8585
+Epoch 19 | Batch 1300/1553 | Loss: 4.7156
+Epoch 19 | Batch 1400/1553 | Loss: 4.8002
+Epoch 19 | Batch 1500/1553 | Loss: 4.7947
+Epoch 19 | Time: 135.8s | Train Loss: 4.8078 | Val Loss: 5.3663
+Epoch 20 | Batch 0/1553 | Loss: 4.6729
+Epoch 20 | Batch 100/1553 | Loss: 4.8500
+Epoch 20 | Batch 200/1553 | Loss: 4.8842
+Epoch 20 | Batch 300/1553 | Loss: 4.8730
+Epoch 20 | Batch 400/1553 | Loss: 4.7148
+Epoch 20 | Batch 500/1553 | Loss: 4.8767
+Epoch 20 | Batch 600/1553 | Loss: 4.7699
+Epoch 20 | Batch 700/1553 | Loss: 4.8696
+Epoch 20 | Batch 800/1553 | Loss: 4.6580
+Epoch 20 | Batch 900/1553 | Loss: 4.7183
+Epoch 20 | Batch 1000/1553 | Loss: 4.8334
+Epoch 20 | Batch 1100/1553 | Loss: 4.8192
+Epoch 20 | Batch 1200/1553 | Loss: 4.8559
+Epoch 20 | Batch 1300/1553 | Loss: 4.8197
+Epoch 20 | Batch 1400/1553 | Loss: 4.8940
+Epoch 20 | Batch 1500/1553 | Loss: 4.7891
+Epoch 20 | Time: 136.6s | Train Loss: 4.8070 | Val Loss: 5.3457
+Epoch 21 | Batch 0/1553 | Loss: 4.6623
+Epoch 21 | Batch 100/1553 | Loss: 4.7713
+Epoch 21 | Batch 200/1553 | Loss: 4.6869
+Epoch 21 | Batch 300/1553 | Loss: 4.7760
+Epoch 21 | Batch 400/1553 | Loss: 4.7041
+Epoch 21 | Batch 500/1553 | Loss: 4.7821
+Epoch 21 | Batch 600/1553 | Loss: 4.7166
+Epoch 21 | Batch 700/1553 | Loss: 4.8101
+Epoch 21 | Batch 800/1553 | Loss: 4.8311
+Epoch 21 | Batch 900/1553 | Loss: 4.8954
+Epoch 21 | Batch 1000/1553 | Loss: 4.9341
+Epoch 21 | Batch 1100/1553 | Loss: 4.8216
+Epoch 21 | Batch 1200/1553 | Loss: 4.9028
+Epoch 21 | Batch 1300/1553 | Loss: 4.9703
+Epoch 21 | Batch 1400/1553 | Loss: 4.8986
+Epoch 21 | Batch 1500/1553 | Loss: 4.8165
+Epoch 21 | Time: 136.4s | Train Loss: 4.8061 | Val Loss: 5.3692
+Epoch 22 | Batch 0/1553 | Loss: 4.6279
+Epoch 22 | Batch 100/1553 | Loss: 4.6915
+Epoch 22 | Batch 200/1553 | Loss: 4.8327
+Epoch 22 | Batch 300/1553 | Loss: 4.7612
+Epoch 22 | Batch 400/1553 | Loss: 4.7169
+Epoch 22 | Batch 500/1553 | Loss: 4.8225
+Epoch 22 | Batch 600/1553 | Loss: 4.6770
+Epoch 22 | Batch 700/1553 | Loss: 4.6910
+Epoch 22 | Batch 800/1553 | Loss: 4.7973
+Epoch 22 | Batch 900/1553 | Loss: 4.9188
+Epoch 22 | Batch 1000/1553 | Loss: 4.9435
+Epoch 22 | Batch 1100/1553 | Loss: 4.8543
+Epoch 22 | Batch 1200/1553 | Loss: 4.8821
+Epoch 22 | Batch 1300/1553 | Loss: 4.7775
+Epoch 22 | Batch 1400/1553 | Loss: 4.8145
+Epoch 22 | Batch 1500/1553 | Loss: 4.7451
+Epoch 22 | Time: 137.5s | Train Loss: 4.8064 | Val Loss: 5.3376
+Epoch 23 | Batch 0/1553 | Loss: 4.6945
+Epoch 23 | Batch 100/1553 | Loss: 4.9083
+Epoch 23 | Batch 200/1553 | Loss: 4.7867
+Epoch 23 | Batch 300/1553 | Loss: 4.8237
+Epoch 23 | Batch 400/1553 | Loss: 4.7922
+Epoch 23 | Batch 500/1553 | Loss: 4.7197
+Epoch 23 | Batch 600/1553 | Loss: 4.8058
+Epoch 23 | Batch 700/1553 | Loss: 4.7754
+Epoch 23 | Batch 800/1553 | Loss: 4.7604
+Epoch 23 | Batch 900/1553 | Loss: 4.6875
+Epoch 23 | Batch 1000/1553 | Loss: 4.9192
+Epoch 23 | Batch 1100/1553 | Loss: 4.8960
+Epoch 23 | Batch 1200/1553 | Loss: 4.8297
+Epoch 23 | Batch 1300/1553 | Loss: 4.8891
+Epoch 23 | Batch 1400/1553 | Loss: 4.6680
+Epoch 23 | Batch 1500/1553 | Loss: 4.7945
+Epoch 23 | Time: 135.9s | Train Loss: 4.8045 | Val Loss: 5.3395
+Epoch 24 | Batch 0/1553 | Loss: 4.7367
+Epoch 24 | Batch 100/1553 | Loss: 4.8389
+Epoch 24 | Batch 200/1553 | Loss: 4.6967
+Epoch 24 | Batch 300/1553 | Loss: 4.7506
+Epoch 24 | Batch 400/1553 | Loss: 4.8246
+Epoch 24 | Batch 500/1553 | Loss: 4.7400
+Epoch 24 | Batch 600/1553 | Loss: 4.8370
+Epoch 24 | Batch 700/1553 | Loss: 4.7598
+Epoch 24 | Batch 800/1553 | Loss: 4.8895
+Epoch 24 | Batch 900/1553 | Loss: 4.9609
+Epoch 24 | Batch 1000/1553 | Loss: 4.9157
+Epoch 24 | Batch 1100/1553 | Loss: 4.8115
+Epoch 24 | Batch 1200/1553 | Loss: 4.9038
+Epoch 24 | Batch 1300/1553 | Loss: 4.7832
+Epoch 24 | Batch 1400/1553 | Loss: 4.8683
+Epoch 24 | Batch 1500/1553 | Loss: 4.8512
+Epoch 24 | Time: 135.6s | Train Loss: 4.8061 | Val Loss: 5.3287
+Epoch 25 | Batch 0/1553 | Loss: 4.8175
+Epoch 25 | Batch 100/1553 | Loss: 4.7948
+Epoch 25 | Batch 200/1553 | Loss: 4.5555
+Epoch 25 | Batch 300/1553 | Loss: 4.8368
+Epoch 25 | Batch 400/1553 | Loss: 4.8179
+Epoch 25 | Batch 500/1553 | Loss: 4.6475
+Epoch 25 | Batch 600/1553 | Loss: 4.6968
+Epoch 25 | Batch 700/1553 | Loss: 4.8918
+Epoch 25 | Batch 800/1553 | Loss: 4.7197
+Epoch 25 | Batch 900/1553 | Loss: 4.7948
+Epoch 25 | Batch 1000/1553 | Loss: 4.8604
+Epoch 25 | Batch 1100/1553 | Loss: 4.6997
+Epoch 25 | Batch 1200/1553 | Loss: 4.9255
+Epoch 25 | Batch 1300/1553 | Loss: 4.8087
+Epoch 25 | Batch 1400/1553 | Loss: 5.0988
+Epoch 25 | Batch 1500/1553 | Loss: 5.0086
+Epoch 25 | Time: 135.4s | Train Loss: 4.8053 | Val Loss: 5.3348
+Epoch 26 | Batch 0/1553 | Loss: 4.6213
+Epoch 26 | Batch 100/1553 | Loss: 4.7414
+Epoch 26 | Batch 200/1553 | Loss: 4.7296
+Epoch 26 | Batch 300/1553 | Loss: 4.7225
+Epoch 26 | Batch 400/1553 | Loss: 4.8215
+Epoch 26 | Batch 500/1553 | Loss: 4.6640
+Epoch 26 | Batch 600/1553 | Loss: 4.6690
+Epoch 26 | Batch 700/1553 | Loss: 4.8491
+Epoch 26 | Batch 800/1553 | Loss: 4.7893
+Epoch 26 | Batch 900/1553 | Loss: 4.7698
+Epoch 26 | Batch 1000/1553 | Loss: 4.6650
+Epoch 26 | Batch 1100/1553 | Loss: 4.8050
+Epoch 26 | Batch 1200/1553 | Loss: 4.7867
+Epoch 26 | Batch 1300/1553 | Loss: 4.7396
+Epoch 26 | Batch 1400/1553 | Loss: 4.7426
+Epoch 26 | Batch 1500/1553 | Loss: 4.9543
+Epoch 26 | Time: 136.9s | Train Loss: 4.8054 | Val Loss: 5.3479
+Epoch 27 | Batch 0/1553 | Loss: 4.6107
+Epoch 27 | Batch 100/1553 | Loss: 4.6433
+Epoch 27 | Batch 200/1553 | Loss: 4.7899
+Epoch 27 | Batch 300/1553 | Loss: 4.8247
+Epoch 27 | Batch 400/1553 | Loss: 4.7109
+Epoch 27 | Batch 500/1553 | Loss: 4.7766
+Epoch 27 | Batch 600/1553 | Loss: 4.8936
+Epoch 27 | Batch 700/1553 | Loss: 4.7238
+Epoch 27 | Batch 800/1553 | Loss: 4.9323
+Epoch 27 | Batch 900/1553 | Loss: 4.7897
+Epoch 27 | Batch 1000/1553 | Loss: 4.8932
+Epoch 27 | Batch 1100/1553 | Loss: 4.8035
+Epoch 27 | Batch 1200/1553 | Loss: 4.8775
+Epoch 27 | Batch 1300/1553 | Loss: 4.8742
+Epoch 27 | Batch 1400/1553 | Loss: 4.8630
+Epoch 27 | Batch 1500/1553 | Loss: 4.9110
+Epoch 27 | Time: 135.5s | Train Loss: 4.8068 | Val Loss: 5.3574
+Epoch 28 | Batch 0/1553 | Loss: 4.6374
+Epoch 28 | Batch 100/1553 | Loss: 4.6122
+Epoch 28 | Batch 200/1553 | Loss: 4.6886
+Epoch 28 | Batch 300/1553 | Loss: 4.9240
+Epoch 28 | Batch 400/1553 | Loss: 4.8883
+Epoch 28 | Batch 500/1553 | Loss: 4.7511
+Epoch 28 | Batch 600/1553 | Loss: 4.6704
+Epoch 28 | Batch 700/1553 | Loss: 4.7743
+Epoch 28 | Batch 800/1553 | Loss: 4.8184
+Epoch 28 | Batch 900/1553 | Loss: 4.9779
+Epoch 28 | Batch 1000/1553 | Loss: 4.7349
+Epoch 28 | Batch 1100/1553 | Loss: 4.7249
+Epoch 28 | Batch 1200/1553 | Loss: 4.7898
+Epoch 28 | Batch 1300/1553 | Loss: 4.6404
+Epoch 28 | Batch 1400/1553 | Loss: 4.8866
+Epoch 28 | Batch 1500/1553 | Loss: 4.8661
+Epoch 28 | Time: 135.9s | Train Loss: 4.8087 | Val Loss: 5.3505
+Epoch 29 | Batch 0/1553 | Loss: 4.6201
+Epoch 29 | Batch 100/1553 | Loss: 4.7993
+Epoch 29 | Batch 200/1553 | Loss: 4.8407
+Epoch 29 | Batch 300/1553 | Loss: 4.7524
+Epoch 29 | Batch 400/1553 | Loss: 4.7751
+Epoch 29 | Batch 500/1553 | Loss: 4.7503
+Epoch 29 | Batch 600/1553 | Loss: 4.8120
+Epoch 29 | Batch 700/1553 | Loss: 4.8697
+Epoch 29 | Batch 800/1553 | Loss: 4.8181
+Epoch 29 | Batch 900/1553 | Loss: 4.8548
+Epoch 29 | Batch 1000/1553 | Loss: 4.8047
+Epoch 29 | Batch 1100/1553 | Loss: 4.8726
+Epoch 29 | Batch 1200/1553 | Loss: 4.9841
+Epoch 29 | Batch 1300/1553 | Loss: 4.7566
+Epoch 29 | Batch 1400/1553 | Loss: 4.9350
+Epoch 29 | Batch 1500/1553 | Loss: 4.9351
+Epoch 29 | Time: 136.6s | Train Loss: 4.8082 | Val Loss: 5.3813
+
+Total training time: 01:08:37 (4117.2s)

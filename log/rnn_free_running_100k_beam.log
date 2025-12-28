@@ -1,0 +1,25 @@
+nohup: ignoring input
+/data/250010067/conda_envs/nmt_env/lib/python3.10/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 2.507 seconds.
+Prefix dict has been built successfully.
+Model: rnn | Checkpoint: best_free_running_100k.pt | Device: cuda
+Evaluating on 200 samples...
+  Processed 100/200
+  Processed 200/200
+
+==================================================
+Model: rnn | Checkpoint: best_free_running_100k.pt
+==================================================
+BLEU:   0.00
+BLEU-1: 4.36
+BLEU-2: 0.26
+BLEU-3: 0.03
+BLEU-4: 0.00
+==================================================
+Avg Latency: 1982.23 ms/sentence
+Total Time:  396.45 s
+Throughput:  0.50 sentences/s
+==================================================

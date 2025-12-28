@@ -1,0 +1,22 @@
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+/usr/local/lib/python3.10/dist-packages/apex/normalization/fused_layer_norm.py:214: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+Loading LoRA checkpoint from checkpoints/t5/best_11b_100k
+Model: t5 | Checkpoint: best_11b_100k | Device: cuda
+Evaluating on 200 samples...
+  Processed 100/200
+  Processed 200/200
+
+==================================================
+Model: t5 | Checkpoint: best_11b_100k
+==================================================
+BLEU:   2.55
+BLEU-1: 24.80
+BLEU-2: 4.24
+BLEU-3: 1.57
+BLEU-4: 0.90
+==================================================
+Avg Latency: 797.33 ms/sentence
+Total Time:  159.47 s
+Throughput:  1.25 sentences/s
+==================================================

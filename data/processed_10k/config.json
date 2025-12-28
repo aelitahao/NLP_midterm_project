@@ -1,0 +1,14 @@
+{
+  "src_vocab_size": 5000,
+  "tgt_vocab_size": 5000,
+  "pad_idx": 0,
+  "sos_idx": 1,
+  "eos_idx": 2,
+  "unk_idx": 3,
+  "max_length": 64,
+  "embed_dim": null,
+  "data_size": "10k",
+  "train_samples": 9937,
+  "valid_samples": 486,
+  "test_samples": 181
+}

@@ -2,6 +2,9 @@
 CLAUDE.md
 .claude/
 
+# Documentation
+*.md
+
 # Model checkpoints (large files)
 checkpoints/
 *.pt

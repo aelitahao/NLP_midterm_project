@@ -7,10 +7,6 @@ CLAUDE.md
 
 # Model checkpoints (large files)
 checkpoints/
-*.pt
-*.pth
-*.bin
-*.safetensors
 
 # Training logs
 log/

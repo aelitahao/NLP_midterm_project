@@ -6,7 +6,12 @@ CLAUDE.md
 *.md
 
 # Model checkpoints (large files)
+# Only keep best_100k.pt via Git LFS
 checkpoints/
+!checkpoints/rnn/
+!checkpoints/rnn/best_100k.pt
+!checkpoints/transformer/
+!checkpoints/transformer/best_100k.pt
 
 # Data files (large)
 data/raw/

@@ -2,3 +2,7 @@ checkpoints/*/best_100k.pt filter=lfs diff=lfs merge=lfs -text
 checkpoints/rnn/best_*.pt filter=lfs diff=lfs merge=lfs -text
 checkpoints/t5/best_large_100k.pt filter=lfs diff=lfs merge=lfs -text
 checkpoints/t5/best_base_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/rnn/best_additive_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/rnn/best_dot_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/rnn/best_free_running_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/rnn/best_general_100k.pt filter=lfs diff=lfs merge=lfs -text

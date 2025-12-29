@@ -6,3 +6,12 @@ checkpoints/rnn/best_additive_100k.pt filter=lfs diff=lfs merge=lfs -text
 checkpoints/rnn/best_dot_100k.pt filter=lfs diff=lfs merge=lfs -text
 checkpoints/rnn/best_free_running_100k.pt filter=lfs diff=lfs merge=lfs -text
 checkpoints/rnn/best_general_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/transformer/best_bs16_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/transformer/best_large_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/transformer/best_lr5e4_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/transformer/best_absolute_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/transformer/best_bs64_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/transformer/best_lr1e3_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/transformer/best_relative_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/transformer/best_rmsnorm_100k.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/transformer/best_small_100k.pt filter=lfs diff=lfs merge=lfs -text

@@ -130,7 +130,7 @@ def collate_fn(batch):
 
 
 def get_dataloader(data_path: str, batch_size: int = 32, shuffle: bool = True):
-    """获取DataLoader"""
+    """Get DataLoader"""
     data = torch.load(data_path)
     return DataLoader(NMTDataset(data['src'], data['tgt']),
                       batch_size=batch_size, shuffle=shuffle, collate_fn=collate_fn)

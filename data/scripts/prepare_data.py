@@ -117,16 +117,23 @@ def collate_fn(batch):
     # Pad src and tgt
     src_pad = torch.zeros(len(batch), max(src_lens), dtype=torch.long)
     tgt_pad = torch.zeros(len(batch), max(tgt_lens), dtype=torch.long)
-    
+
     for i, (s, t) in enumerate(zip(src, tgt)):
         src_pad[i, :len(s)] = s
         tgt_pad[i, :len(t)] = t
-        
+
     return {
         'src': src_pad,
         'tgt': tgt_pad,
         'src_lengths': torch.tensor(src_lens) # RNN uses pack_padded_sequence which needs lengths
     }
+
+
+def get_dataloader(data_path: str, batch_size: int = 32, shuffle: bool = True):
+    """获取DataLoader"""
+    data = torch.load(data_path)
+    return DataLoader(NMTDataset(data['src'], data['tgt']),
+                      batch_size=batch_size, shuffle=shuffle, collate_fn=collate_fn)
 
 
 def load_jsonl(file_path: str) -> List[Dict]:
